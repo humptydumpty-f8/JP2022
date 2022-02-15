@@ -10,7 +10,7 @@ public class ex2_1 {
         int x=333;
         int y=22;
         int z =-1;
-        System.out.printf("x=%3d%ny=%+3d%nz=%+03d%n", x, y,z);
+        System.out.printf("x=%3d%ny=%+3d%nz=%+03d", x, y,z);
 
     }
 }

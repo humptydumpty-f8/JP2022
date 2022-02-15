@@ -3,14 +3,16 @@ package kpi.apeps.lec3;
 import java.io.Console;
 
 /**
- * Обробка параметрів командного рядка
+ * Введення з консолі за допомогою java.io.Console
+ * Запускається тільки з консолі!!!!!!!!
  */
 public class ex7_1 {
-    public static void main(String[] args) {
 
-        System.out.println("Parameters:");
-        for (int i = 0; i < args.length ; i++) {
-            System.out.printf("%d \t %s \n", i,args[i]);
-        }
+    public static void main(String[] args) {
+        Console cons = System.console();
+        String username = cons.readLine ( "User name: ");
+        char [] passwd = cons.readPassword ( "Password: ") ;
+        System.out.println("User name: " + username);
+        System.out.println("Password: " + new String(passwd));
     }
 }

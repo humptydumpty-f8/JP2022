@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class ex5_2 {
     public static void main(String[] args) {
-        String contents ="Hello World!" +
+        String contents ="Hello World " +
                 "Hello World!\n" +
                 "Welcome to Java!";
 

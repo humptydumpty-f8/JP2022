@@ -15,7 +15,7 @@ public class ex2_2 {
 
 //
 //        Приклад 3.
-//        System.out.printf("%d%n%f%n%e", 25, 25.,2.5e3);
+//        System.out.printf("%d%n%.1f%n%.2e", 25, 25.,2.5e3);
 
 //        Приклад 4.
 //        System.out.printf("%d\t%c%n", 169, 169);
@@ -28,8 +28,8 @@ public class ex2_2 {
 //        System.out.printf(format, 169,"Pupkin",2020);
 
 //        Приклад 7.
-        String text=String.format("%c%S %d",169,"Pupkin",2020);
-        System.out.println(text);
+//        String text=String.format("%c%S %d",169,"Pupkin",2020);
+//        System.out.println(text);
 
     }
 }
