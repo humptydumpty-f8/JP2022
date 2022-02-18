@@ -11,7 +11,7 @@ public class ex2_2 {
 
 //        Приклад 2.
 //        int x =10;
-//        System.out.printf("%d%n%o%n%x", x, x,x);
+//        System.out.printf("%d%n%o%n%X", x, x, x);
 
 //
 //        Приклад 3.
@@ -28,8 +28,8 @@ public class ex2_2 {
 //        System.out.printf(format, 169,"Pupkin",2020);
 
 //        Приклад 7.
-//        String text=String.format("%c%S %d",169,"Pupkin",2020);
-//        System.out.println(text);
+        String text=String.format("%c%S %d",169,"Pupkin",2020);
+        System.out.println(text);
 
     }
 }
