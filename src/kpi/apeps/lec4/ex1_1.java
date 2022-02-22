@@ -14,7 +14,7 @@ public class ex1_1 {
         /*long l = 2147483648; // Помилка компіляції*/
 
         // Перетворення з використанням суфікса l (або L) в тип long
-        long l = 2147483648l;
+        long l = 2147483648L;
 
         System.out.println("Цілочисельні літерали:");
         System.out.printf("b=%d\n" +

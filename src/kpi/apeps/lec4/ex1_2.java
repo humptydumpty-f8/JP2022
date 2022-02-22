@@ -9,7 +9,7 @@ public class ex1_2 {
         byte b1 = 1, b2=2;
 //        byte b = b1+b2;//Помилка компіляції!
         byte b = (byte)(b1+b2);
-
+///
         short s1 = 3, s2=4;
 //        short s = s1+s2;//Помилка компіляції!
         short s=(short)(s1+s2);
